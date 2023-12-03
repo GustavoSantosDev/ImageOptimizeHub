@@ -2,8 +2,8 @@ from PIL import Image
 
 import os
 
-downloads_folder = "/Users/Gustavo Santos/Downloads/"
-folder_pictures = "/Users/Gustavo Santos/Pictures/"
+downloads_folder = "/Users/Gustavo Santos/Downloads/"  #Cambia la dirrecion de la carpeta por tu direccion de descargas
+folder_pictures = "/Users/Gustavo Santos/Pictures/"    #Cambia la dirrecion de la carpeta por tu direccion de imagines
 
 if __name__ == "__main__":
     for filename in os.listdir(downloads_folder):
